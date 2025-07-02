@@ -1,6 +1,4 @@
-# Hey Yo! I'm here!
-
-- Papa at home!
+# Welcome to Git!
 
 Hello to everyone who read this.
 
@@ -107,3 +105,7 @@ Git commands:
     6. Merge the changes
     7. Pull the merged changes into your local main branch
     8. Repeat from step 2
+
+#### Resolving merge conflicts
+
+Sometimes it happens that few fellows work on same code at the same time. When they edit, commit and push same lines of code it results at merge conflict, when git doesn't know which code should be accepted. At this situation we need to manually figure out which lines of code sould be left or deleted, and only after that we can succesfully perform our PR (pull request).
