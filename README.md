@@ -63,3 +63,45 @@ The -f (force) option discards any uncommitted changes in your working directory
 ## 2.07.2025
 
 Since yesterday I've stuck on reviewing git, I expect today I'm going to follow up with git and before midday I will compleate my review process, which will allow me to feel free and confident with git.
+
+### Reviewed today
+
+Git commands:
+
+- git branch -M main - Renames the current branch to main. Useful if you want to standardize the default branch name.
+
+- git remote add origin <url> - Adds a remote repository named origin with the given URL. Typically used to connect your local repo to a GitHub repo.
+
+- git remote add <repo-name> <url> - Adds a remote with a custom name other than origin. This is useful if you're working with multiple remotes.
+
+- git push -u origin main - Pushes your local main branch to the remote origin, and links it so future git push or git pull commands work automatically.
+
+- git branch <branch-name> - Creates a new branch pointing to the current commit.
+
+- git checkout <branch-name> - Switches your working directory to another branch.
+
+- git checkout -b <branch-name> - Creates a new branch and immediately switches to it.
+
+- git branch <new-branch-name> <source-branch> - Creates a new branch starting from the commit where source-branch currently points.
+
+- git push --set-upstream origin <branch-name> || - git push -u origin <branch-name> - Pushes the branch to the remote and sets it as the default upstream. After this, you can use just git push.
+
+- git push - Sends your committed changes to the corresponding remote branch.
+
+- git pull - Downloads the latest changes from the remote branch and automatically merges them into your current branch.
+
+- git merge - Merges the changes from a specified branch into your current branch.
+  <!-- git checkout main -->
+  <!-- git merge feature/login -->
+  <!-- This will integrate the changes from feature/login into main. -->
+
+#### Typical workflow
+
+    1. Clone the repo
+    2. Create a new branch from the main or another branch
+    3. Make changes
+    4. Push the branch to the remote repo
+    5. Open a Pull Request
+    6. Merge the changes
+    7. Pull the merged changes into your local main branch
+    8. Repeat from step 2
