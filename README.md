@@ -109,3 +109,31 @@ Git commands:
 #### Resolving merge conflicts
 
 Sometimes it happens that few fellows work on same code at the same time. When they edit, commit and push same lines of code it results at merge conflict, when git doesn't know which code should be accepted. At this situation we need to manually figure out which lines of code sould be left or deleted, and only after that we can succesfully perform our PR (pull request).
+
+#### Advanced git
+
+- git checkout <commit-hash> - Switches to a specific commit in a detached HEAD state. Useful for reviewing past code.
+
+- git reset <commit-hash> - Moves the current branch to the given commit but leaves changes in your files. Good for undoing commits without losing work.
+
+- git reset --soft <commit-hash> - Moves HEAD to the specified commit and keeps the changes staged.
+
+- git reset --hard <commit-hash> - Moves HEAD to the specified commit and discards all changes in the staging area and working directory. Dangerous but powerful.
+
+- git revert <commit-hash> - Creates a new commit that undoes the changes from the specified commit without changing history.
+
+- git revert --continue - If a conflict occurs during git revert, resolve it and run this to complete the revert.
+
+- git stash - Temporarily shelves (stashes) changes in your working directory so you can work on something else.
+
+- git stash list - Shows a list of all stashes you’ve saved.
+
+- git stash apply stash@{0} - Restores the changes from a specific stash back into your working directory.
+
+#### Git wasu GUI
+
+Nowadays many code editors provide comfortable grafic user interface that allow to switch between branches, commit and push changes, merge branches. It also show grapf where it's easy to see all merges from different branches.
+
+#### Insights
+
+1. 1 hour video with git tutorial took me 2 days to properly consume and acquire this skills.
