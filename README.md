@@ -1,5 +1,6 @@
-# Hey Yo! I'm here!
+# Welcome to Git!
 
+- line added from 'dev-alex'
 - Papa at home!
 
 Hello to everyone who read this.
@@ -107,3 +108,5 @@ Git commands:
     6. Merge the changes
     7. Pull the merged changes into your local main branch
     8. Repeat from step 2
+
+#### Resolving merge conflicts
