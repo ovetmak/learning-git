@@ -137,3 +137,20 @@ Nowadays many code editors provide comfortable grafic user interface that allow 
 #### Insights
 
 1. 1 hour video with git tutorial took me 2 days to properly consume and acquire this skills.
+
+## 3.07.2025
+
+Let's go back to my previous goal, to develop optimal roadmap and arrange strict boundaries of what I need and will learn before start of applying for dev jobs.
+
+Tech stack:
+
+- HTML
+- CSS
+- JS basics
+- React
+- git & GitHub
+
+Cources:
+
+- The Web Developer Bootcamp 2025: Colt Steel
+- Complete React, Next.js & TypeScript Projects Course 2025: Janis Smilga
